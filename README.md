@@ -53,9 +53,10 @@ the page will subscribe to the matching `config/*` / `state/*` documents.
 ## The scout pipeline
 
 The dashboard is populated by a scheduled multi-agent pipeline (coordinator →
-pull → synthesize + decision-engine → verifier). Those agent prompts are **not**
-included here (they contain environment-specific source config); this repo is
-the front-end + data contract only.
+pull → synthesize + decision-engine → verifier). Generic templates of the five
+agent prompts are in [`prompts/`](prompts/), scrubbed the same way (placeholder
+IDs, keywords and domains). See [`prompts/README.md`](prompts/README.md) for the
+topology, invariants and wiring.
 
 ## Placeholder data
 
