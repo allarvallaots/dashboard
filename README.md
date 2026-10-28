@@ -65,4 +65,4 @@ is attached. Replace or empty them for your own deployment.
 
 ## License
 
-Add your preferred license here.
+Released under the MIT License — see [LICENSE](LICENSE).
