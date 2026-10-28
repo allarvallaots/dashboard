@@ -66,3 +66,8 @@ internal domain — replace those with your own.
 - Point each source step at the connector tools available in your environment
   (an email/calendar connector, a chat connector, a files/wiki connector, and a
   local-file bridge if you use one).
+
+## Governance
+
+The decision-rights model, safety gates and sole-writer DB authority that
+constrain these agents are documented in [../GOVERNANCE.md](../GOVERNANCE.md).

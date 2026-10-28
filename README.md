@@ -56,7 +56,8 @@ The dashboard is populated by a scheduled multi-agent pipeline (coordinator →
 pull → synthesize + decision-engine → verifier). Generic templates of the five
 agent prompts are in [`prompts/`](prompts/), scrubbed the same way (placeholder
 IDs, keywords and domains). See [`prompts/README.md`](prompts/README.md) for the
-topology, invariants and wiring.
+topology, invariants and wiring. See [GOVERNANCE.md](GOVERNANCE.md) for
+the decision-rights model, safety gates and sole-writer DB authority.
 
 ## Placeholder data
 
